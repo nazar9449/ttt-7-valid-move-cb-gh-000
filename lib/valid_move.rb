@@ -5,7 +5,9 @@ def valid_move?(board=[" "," "," "," "," "," "," "," "," "], index)
   else
     return false
   end
-  if position_taken?==true
+  if position_taken?
+    return true
+  else
     return false
 end
 
